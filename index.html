@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+</script>
+
+<link rel='manifest' href='/manifest.json'>
+<script> scr = "pwabuilder-sw.js"</script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<title>Реферат</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/main.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="fonts/flaticon.css" rel="stylesheet">
+<link href="css/ionicons.min.css" rel="stylesheet">
+
+<!-- JavaScripts -->
+<script src="js/modernizr.js"></script>
+
+<!-- Online Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900|Montserrat:300,400,500,600,700,800" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="position-center-center">
+    <div class="ldr"></div>
+  </div>
+</div>
+
+<!-- Wrap -->
+<div id="wrap"> 
+  
+  <!-- header -->
+  <header class="sticky">
+    <div class="container"> 
+      
+      <!-- Logo -->
+      <div class="logo"> <a href="index.html"><img class="img-responsive" src="images/logo.png" alt="" height="50" align = "middle" ></a> </div>
+      <nav class="navbar ownmenu navbar-expand-lg">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav">
+            <li class="scroll active"><a href="#hme">Главная</a></li>
+            <li class="scroll"> <a href="#about">Обо мне</a> </li>                      
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="clearfix"></div>
+  </header>
+  
+  <!-- HOME MAIN  -->
+  <section class="simple-head" data-stellar-background-ratio="0.5" id="hme"> 
+    <!-- Particles -->
+    <div id="particles-js"></div>
+    <div class="position-center-center">
+      <div class="container text-center">
+        <h1>Веб-программирование с использованием PWA</h1>
+        <p>PWA (Progressive Web Application) - технология в web-разработке, которая визуально и функционально трансформирует сайт в приложение. PWA является гибридным решением и позволяет открыть приложение с помощью мобильного браузера.</p>   
+        <a href="#." class="btn btn-inverse">Просто кнопка</a> </div>     
+    </div>
+  </section>
+  
+  <!-- Content -->
+  <div id="content"> 
+    
+    <!-- Why Choose Us -->
+    <section class="why-choose padding-top-0 padding-bottom-0" id="about">
+      <div class="container"> 
+        
+        <!-- Why Choose Us  ROW-->
+        <div class="row">
+          <div class="col-md-7 margin-top-60"> 
+            
+            <!-- Tittle -->
+            <div class="heading margin-bottom-20">              
+              <h4>Motion-Design 2020</h4>
+            </div>
+            <p>Меня зовут Данил, 23 года. 8 лет занимаюсь моушен-дизайном и делаю всякие интересные мегавжухи, основное направление - флэт эксплейнеры, так же немножечко 3д.</p>            
+            <div class="ultra-ser"> <span><span class="name"> <h6><b> Вот шоурил: </b></h6> </span> </div>
+            <a class="vid-btn margin-top-30 popup-youtube" href="https://vimeo.com/432886259"><i class="fas fa-play-circle"></i> Смотреть видео<br>
+            <span>Showreel 2020</span></a> </div>
+          
+          <!-- Image -->
+          <div class="col-md-5 text-right"> <img src="images/Vynil-img2.png" alt="Что-то пошло не так =\" > </div>
+        </div>
+         <div class="ultra-ser"> <span><span class="name" align="middle"> <h5><b> ВЛАДЕЮ СЛЕДУЮЩИМ СОФТОМ: </b></h5> </span> </div>
+        <!-- Services ROW -->
+        <div class="row"> 
+          
+          <!-- Services -->
+          <div class="col-md-4">
+            <div class="ib-icon" align="middle"><img src="images/after-effects.png" height= "50" ></div>
+            <div class="ib-info">
+              <h4 class="ae" align="middle">After Effects</h4>
+              
+            </div>
+          </div>
+          
+          <!-- Services -->
+          <div class="col-md-4">
+            <div class="ib-icon" align="middle"><img src="images/animate.png" height= "50" ></div>
+            <div class="ib-info">
+            	
+              <h4 class="animate" align="middle">Adobe Animate</h4>
+              
+            </div>
+          </div>
+          
+          <!-- Services -->
+          <div class="col-md-4">
+            <div class="ib-icon" align="middle"> <img src="images/cinema-4d.png" height= "50"> </div>
+            <div class="ib-info">
+            	
+              <h4 class="c4d" align="middle">Cinema 4D</h4>
+              
+            </div>
+          </div>
+          
+          <!-- Services -->
+          <div class="col-md-4">
+            <div class="ib-icon" align="middle"><img src="images/blender.png" height= "50"> </div>
+            <div class="ib-info">
+            	
+              <h4 class="blender" align="middle">Blender</h4>
+              
+            </div>
+          </div>
+          
+          <!-- Services -->
+          <div class="col-md-4">
+            <div class="ib-icon" align="middle"> <img src="images/illustrator.png" height= "50"> </div>
+            <div class="ib-info"> 
+                        	
+              <h4 class="ai" align="middle">Illustrator</h4>
+              
+            </div>
+          </div>
+          
+          <!-- Services -->
+          <div class="col-md-4">
+            <div class="ib-icon" align="middle"> <img src="images/photoshop.png" height= "50"> </div>
+            <div class="ib-info">
+            	
+              <h4 class="ps" align="middle">Photoshop</h4>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+   
+  
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="container" align="middle">
+      <div class="parthner">
+        <h6>Жаравин Данил ПО-11</h6>        
+      </div>
+    </div>  
+
+<!-- GO TO TOP --> 
+	<a href="#" class="cd-top"><i class="ion-chevron-up"></i></a> 
+<!-- GO TO TOP End --> 
+
+<!-- Script --> 
+<script src="js/jquery-1.11.3.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/particles.min.js"></script> 
+<script src="js/jquery.counterup.min.js"></script> 
+<script src="js/jquery.sticky.js"></script> 
+<script src="js/jquery.magnific-popup.min.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>

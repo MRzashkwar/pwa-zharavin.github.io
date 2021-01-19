@@ -1,0 +1,48 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Πετεπΰς",
+    "short_name": "Πετ",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "/index.html",
+    "background_color": "#000000",
+    "theme_color": "transparent",
+    "description": "Progressive Web Application",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "images/blender.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        }
+    ],
+    "url": "index.html"
+}
+
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Bariatric Eating",
+    "short_name": "Bariatric Eatin",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "index.html",
+    "background_color": "#000000",
+    "theme_color": "transparent",
+    "description": "The best tasting protein drinks, bars, soups, snacks and vitamins designed specifically for those who have undergone bariatric surgery.",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "images/blender.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        }
+    ],
+    "url": "index.html",
+    "screenshots": []
+}
